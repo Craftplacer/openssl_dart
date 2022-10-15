@@ -36,6 +36,6 @@ class BigNum {
   }
 }
 
-extension IntExtensions on int {
+extension BigNumIntExtensions on int {
   BigNum toBigNum() => BigNum()..setWord(this);
 }

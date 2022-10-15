@@ -49,7 +49,7 @@ class OpenSSLException implements Exception {
   String toString() => "OpenSSLException($message)";
 }
 
-extension IntExtensions on int {
+extension ExceptionIntExtensions on int {
   void throwIfNotOne() {
     if (this != 1) throw OpenSSLException.fromCode(this);
   }
