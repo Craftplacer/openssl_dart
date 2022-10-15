@@ -1,0 +1,28 @@
+name: openssl_dart
+description: An incomplete Dart wrapper for OpenSSL (libcrypto)
+version: 1.0.0
+
+environment:
+  sdk: '>=2.17.5 <3.0.0'
+
+dev_dependencies:
+  ffigen: ^7.0.0
+  lints: ^2.0.0
+  test: ^1.16.0
+
+dependencies:
+  ffi: ^2.0.1
+  meta: ^1.8.0
+
+ffigen:
+  output: 'lib/src/bindings.g.dart'
+  headers:
+    entry-points:
+      - 'headers/bio.h'
+      - 'headers/conf.h'
+      - 'headers/err.h'
+      - 'headers/evp.h'
+      - 'headers/hmac.h'
+      - 'headers/pem.h'
+      - 'headers/rsa.h'
+      - 'headers/ui.h'

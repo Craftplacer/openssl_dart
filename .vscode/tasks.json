@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "dart: dart run ffigen",
+            "type": "shell",
+            "command": "dart run ffigen",
+            "problemMatcher": []
+        }
+    ]
+}

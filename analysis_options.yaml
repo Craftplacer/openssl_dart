@@ -1,0 +1,8 @@
+include: package:lints/recommended.yaml
+analyzer:
+  exclude:
+    - lib/src/bindings.g.dart
+linter:
+  rules:
+    - prefer_relative_imports
+    - directives_ordering
