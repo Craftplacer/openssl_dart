@@ -1,7 +1,6 @@
 import 'dart:typed_data' show Uint8List;
 
 import 'package:openssl_dart/openssl_dart.dart';
-import 'package:openssl_dart/src/err.dart';
 import 'package:test/test.dart';
 
 const bits = 4096;
