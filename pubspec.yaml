@@ -16,6 +16,8 @@ dependencies:
 
 ffigen:
   output: 'lib/src/bindings.g.dart'
+  preamble: |
+    // coverage:ignore-file
   headers:
     entry-points:
       - 'headers/bio.h'
