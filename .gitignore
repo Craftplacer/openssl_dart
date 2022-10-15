@@ -11,3 +11,6 @@ pubspec.lock
 
 # Local headers
 headers/
+
+# Coverage results
+coverage/
