@@ -1,5 +1,7 @@
 # `openssl_dart`
 
+[![codecov](https://codecov.io/gh/Craftplacer/openssl_dart/branch/master/graph/badge.svg?token=3O01J48H9O)](https://codecov.io/gh/Craftplacer/openssl_dart)
+
 An incomplete Dart wrapper for OpenSSL (`libcrypto`). The library is provided open source as-is.
 
 ## Library structure
